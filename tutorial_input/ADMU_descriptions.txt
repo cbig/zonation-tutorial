@@ -1,0 +1,4 @@
+#ID G_A  beta_A  name 
+0   0.333  1  HV - Leftland
+1   0.333  1  HV - Rightland
+2   0.333  1  HV - Boxland
