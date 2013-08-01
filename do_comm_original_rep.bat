@@ -1,0 +1,1 @@
+call zig3.exe -ltutorial_output/out_community/output_similarity.rank.asc tutorial_input/set.dat tutorial_input/bdlist_community.spp tutorial_output/out_community/output_commsim_original.txt 0.0 0 1.0 0
