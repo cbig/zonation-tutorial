@@ -1,1 +1,1 @@
-call zig3.exe -r tutorial_input/set.dat tutorial_input/splist.spp tutorial_output/output.txt 0.0 0 1.0 1
+call zig3.exe -r basic_01_caz/basic_01_caz.dat basic_01_caz/basic_01_caz.spp basic_output/basic_01_abf/output.txt 0.0 0 1.0 1
