@@ -7,6 +7,6 @@
 
 Basic core-area Zonation run.
 
-### 02_abf
+### 02_abf_w
 
-Basic additive benefit function run.
+Basic additive benefit function run with weights.
