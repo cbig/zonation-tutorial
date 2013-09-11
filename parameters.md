@@ -9,7 +9,7 @@ rows starting with the symbol # . Remember also to use decimal points, not comma
 all the input files."
 
 Table below lists all the available parameters by category with default values (if applicable). 
-File [all_parameters.dat]() also lists the the same parameters as a proper dat-file.
+File [all_parameters.dat](https://github.com/cbig/zonation-tutorial/blob/master/all_parameters.dat) also lists the the same parameters as a proper dat-file.
 
 Parameter value 0/1 means:
 
