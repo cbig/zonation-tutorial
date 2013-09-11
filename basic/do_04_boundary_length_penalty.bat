@@ -1,0 +1,1 @@
+call zig3.exe -r 04_boundary_length_penalty/04_boundary_length_penalty.dat 04_boundary_length_penalty/04_boundary_length_penalty.spp basic_output/04_boundary_length_penalty/04_boundary_length_penalty.txt 0.0 0 1.0 0
