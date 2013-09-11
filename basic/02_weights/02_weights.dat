@@ -1,4 +1,5 @@
 [Settings]
-removal rule = 2
+removal rule = 1
 warp factor = 100
 edge removal = 1
+annotate name = 0
