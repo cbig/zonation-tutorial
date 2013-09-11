@@ -1,0 +1,1 @@
+call zig3.exe -r 05_distribution_smoothing/05_distribution_smoothing.dat 05_distribution_smoothing/05_distribution_smoothing.spp basic_output/05_distribution_smoothing/05_distribution_smoothing.txt 0.0 1 2 0
