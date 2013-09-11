@@ -1,29 +1,31 @@
-## Original variants
+## Old variants to new variants
 
-do_abf.bat
-do_ADMU.bat
-do_blp.bat
-do_bqp.bat
-do_comm_nosimilarity.bat
-do_comm_original_rep.bat
-do_comm_similarity.bat
-do_comm_sp.bat
-do_condition.bat
-do_cost_ds.bat
-do_ds.bat
-do_load.bat
-do_multiple.bat
-do_nqp.bat
-do_ppa.bat
-do_retention_m1.bat
-do_rs.bat
-do_ssi.bat
-do_tbp.bat
-do_towns.bat
-do_uc.bat
-do_w_alu.bat
-do_w.bat
-do_zig3.bat
-do_zig3_transf_out_all.bat
-load_costbqp.bat
-load_costds.bat
+| Old variant 				| New variant 			| Group    |
+|---------------------------|-----------------------|----------|
+| do_abf.bat 				| basic_03_abf_w		| basic    |
+| do_ADMU.bat  				|						| advanced |
+| do_blp.bat  				| basic_04_caz_blp		| basic    |
+| do_bqp.bat  				|						| advanced |
+| do_comm_nosimilarity.bat 	| 						| advanced |
+| do_comm_original_rep.bat  |						| advanced |
+| do_comm_similarity.bat    |						| advanced |
+| do_comm_sp.bat  			|						| advanced |
+| do_condition.bat  		|						| advanced |
+| do_cost_ds.bat  			|						| advanced |
+| do_ds.bat  				| basic_05_caz_w_ds		| basic    |
+| do_load.bat  				|						| advanced |
+| do_multiple.bat  			|						| advanced |
+| do_nqp.bat  				|						| advanced |
+| do_ppa.bat  				|						| advanced |
+| do_retention_m1.bat  		|						| advanced |
+| do_rs.bat  				|						| advanced |
+| do_ssi.bat  				|						| advanced |
+| do_tbp.bat  				|						| advanced |	
+| do_towns.bat  			|						| advanced |
+| do_uc.bat  				|						| advanced |
+| do_w_alu.bat  			|						| advanced |
+| do_w.bat  				| basic_02_caz_w		| basic    |
+| do_zig3.bat  				| basic_01_caz			| basic    |
+| do_zig3_transf_out_all.bat|  						| advanced |
+| load_costbqp.bat  		|						| advanced |
+| load_costds.bat  			|						| advanced |
