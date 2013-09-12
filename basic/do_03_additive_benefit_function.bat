@@ -1,1 +1,0 @@
-call zig3.exe -r 03_additive_benefit_function/03_additive_benefit_function.dat 03_additive_benefit_function/03_additive_benefit_function.spp basic_output/03_additive_benefit_function/output_03_additive_benefit_function.txt 0.0 0 1.0 0
