@@ -62,7 +62,7 @@ Parameter value 0/1 means:
 ### Info-gap settings
 
 | Parameter 							| Default | Explanation |
-|---------------------------------------|---------|-|
+|---------------------------------------|---------|--------|
 | Info-gap proportional 				| 0	 	  | Determines whether the errors in species occurrences are uniform errors (value = 0) or proportional errors (value = 1).|
 | use info-gap weights  				| 1	 	  | Determines whether species-specific distribution uncertainty map layers are used in the info-gap analysis (value = 1) or not (value = 0).|
 | Info-gap weights file 				| - 	  | Indicates the file that includes the list of uncertainty maps.|
@@ -70,7 +70,7 @@ Parameter value 0/1 means:
 ### Community analysis settings
 
 | Parameter 							| Default | Explanation |
-|---------------------------------------|---------|-|
+|---------------------------------------|---------|--------|
 | load similarity matrix 				| 0	 	  |  Determines whether a similarity matrix for connectivity or community composition is used in the analysis (value = 1) or not (value = 0). |
 | connectivity similarity matrix file  	| - 	  | Indicates the connectivity similarity matrix file (section 3.3.3.4.) to be used. |
 | apply to connectivity 				| 0	 	  |  Determines whether the similarity matrix is applied to connectivity in conservation area prioritization (value = 1) or not (value = 0).|
