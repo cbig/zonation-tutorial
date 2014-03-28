@@ -26,12 +26,11 @@ Parameter value 0/1 means:
 | warp factor							| 100     | Defines how many cells are removed at a time. If warp factor is 100, it means that 100 cells are removed at each iteration. Thus a lower warp factor leads to a finer solution, but also to a prolonged running time, whereas a high warp factor keeps the running time short, but might result in a more coarse solution. |
 | edge removal 							| 1       | Determines whether the program removes cells from the edges of remaining landscape (value = 1) or anywhere from the landscape (value = 0). |
 | add edge points 						| 0       | Randomly selects additional cells inside the landscape that will be initially classified as edge-cells, from which removal can proceed. The value of this parameter determines the number of cells that are selected. This parameter allows a compromise between using and not using edge removal. |
-| use SSI 								| 0       | |
-| SSI file name 						| -       | |
-| use planning unit layer 				| 0       | |
-| planning unit layer file 				| - 	  | |
-| initial removal percent 				| 0.0 	  | |
-| use cost								| 0		  | |
+| use SSI 								| 0       | Determines whether Species of Special Interest (SSI) are included into the analysis (value = 1) or not (value = 0).|
+| SSI file name 						| -       | Similar to the biodiversity feature list file, except indicates a file that contains the list of SSI species used in the analysis.|
+| use planning unit layer 				| 0       |  Determines whether a planning unit layer is used (value = 1) or not (value = 0). |
+| planning unit layer file 				| - 	  | Indicates the planning unit layer file (integer grid) to be used.|
+| use cost								| 0		  | Determines whether land costs are included in the analysis (value = 1). If no land costs are used, this parameter should be set to 0. Default = 0.|
 | cost file 							| -		  | |
 | use mask	 							| 0		  | |
 | mask file 							| -		  | |
