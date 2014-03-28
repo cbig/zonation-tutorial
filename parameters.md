@@ -31,13 +31,13 @@ Parameter value 0/1 means:
 | use planning unit layer 				| 0       |  Determines whether a planning unit layer is used (value = 1) or not (value = 0). |
 | planning unit layer file 				| - 	  | Indicates the planning unit layer file (integer grid) to be used.|
 | use cost								| 0		  | Determines whether land costs are included in the analysis (value = 1). If no land costs are used, this parameter should be set to 0. Default = 0.|
-| cost file 							| -		  | |
-| use mask	 							| 0		  | |
-| mask file 							| -		  | |
-| use boundary quality penalty   		| 0       | |
-| BQP profiles file 					| -		  |		 |
-| BQP Mode 	 							| 1       | |
-| BLP 	 								| 0       | |
+| cost file 							| -		  | Indicates the land cost file to be used. Default is that a cost file is not used. |
+| use mask	 							| 0		  | Determines whether a removal mask layer is used (value = 1) or not (value = 0).|
+| mask file 							| -		  | Indicates the mask layer file to be used. Default is that a mask file is not used. |
+| use boundary quality penalty   		| 0       |  Determines whether BQP connectivity is used (value = 1) or not (value = 0). |
+| BQP profiles file 					| -		  |	Indicates the BQP profiles file to be used.|
+| BQP Mode 	 							| 1       | Determines how the program will calculate the effects of fragmentation from species distribution data.|
+| BLP 	 								| 0       | Defines a penalty given for the boundary length of the reserve. The value of BLP should be a small decimal number. The value of this penalty cannot be decided in advance based on some numeric criterion; rather a suitable value needs to be found by experimentation. |
 | use tree connectivity 				| 0		  | |
 | tree connectivity file 				| - 	  |  |
 | use interactions	 					| 0	 	  | |
