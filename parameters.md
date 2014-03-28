@@ -80,13 +80,13 @@ Parameter value 0/1 means:
 
 ### Administrative units
 
-| Parameter 							| Default |
-|---------------------------------------|---------|
-| use ADMUs 							| 0	 	  |
-| ADMU mode 							| 1	 	  |
-| ADMU layer file 						| - 	  |
-| ADMU descriptions file 				| - 	  | 
-| ADMU weight matrix 					| - 	  |
-| calculate local weights from condition| 0	 	  |
-| Mode 2 global weight 					| - 	  |
-| row count for per ADMU output curves 	| 0	 	  |
+| Parameter 							| Default | Explanation |
+|---------------------------------------|---------|------|
+| use ADMUs 							| 0	 	  | Determines whether administrative units are accounted for in the analysis (value = 1) or not (value =0).|
+| ADMU mode 							| 1	 	  | Determines whether the administrative regions are weak (value = 1) or strong (value = 2). |
+| ADMU layer file 						| - 	  | Indicates the administrative units layer to be used.|
+| ADMU descriptions file 				| - 	  | Indicates the file describing weights etc. for the administrative units. | 
+| ADMU weight matrix 					| - 	  | Indicates the file containing a matrix of administrative units x feature weight.|
+| calculate local weights from condition| 0	 	  | |
+| Mode 2 global weight 					| - 	  | Indicates balance between global representation and local (ADMU-specific) considerations in landscape ranking.|
+| row count for per ADMU output curves 	| 0	 	  | Indicates the number of rows for each of the per ADMU curve files, that is, the number of removal levels reported.|
