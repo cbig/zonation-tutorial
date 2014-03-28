@@ -38,26 +38,26 @@ Parameter value 0/1 means:
 | BQP profiles file 					| -		  |	Indicates the BQP profiles file to be used.|
 | BQP Mode 	 							| 1       | Determines how the program will calculate the effects of fragmentation from species distribution data.|
 | BLP 	 								| 0       | Defines a penalty given for the boundary length of the reserve. The value of BLP should be a small decimal number. The value of this penalty cannot be decided in advance based on some numeric criterion; rather a suitable value needs to be found by experimentation. |
-| use tree connectivity 				| 0		  | |
-| tree connectivity file 				| - 	  |  |
-| use interactions	 					| 0	 	  | |
-| interaction file 						| - 	  |  |
-| annotate name 						| 0	 	  | |
-| logit space 							| 0	 	  | |
-| treat zero-areas as missing data 		| 0	 	  | |
-| z 									| 0.25    | |
-| resample species						| 0	 	  | |
-| post-processing list file         	| - 	  |  |
-| memory save mode 						| 0	 	  | |
-| use groups 							| 0	 	  | |
-| groups file 							| - 	  | 	 |
-| use condition layer 					| 0	 	  | |
-| condition file 						| - 	  |  |
-| use retention layer 					| 0	 	  | |
-| retention file 						| - 	  |  |
-| retention layers relative weight 		| 1.0	  | |
-| mask missing areas 					| 0	 	  | |
-| area mask file 						| - 	  |  |
+| use tree connectivity 				| 0		  | Determines whether directed connectivity (Neighborhood Quality Penalty; NQP) is used (value = 1) or not (value = 0).|
+| tree connectivity file 				| - 	  |  Indicates which tree connectivity file will be used when including NQP into the analysis. |
+| use interactions	 					| 0	 	  | Determines whether ecological interactions are included (value = 1) into the analysis or not (value = 0).|
+| interaction file 						| - 	  |  Indicates which interactions definitions file will be used.|
+| annotate name 						| 1	 	  | With this option you can mark your output file names to show which analyses have been used to produce them (value = 1).|
+| logit space 							| 0	 	  | A special option relevant for probability of occurrence models using logistic link functions. Determines whether the biological values of cells will be transformed from logit space (value = 1) for processing.|
+| treat zero-areas as missing data 		| 0	 	  |  This option changes all cells with no species occurrences to missing data. This function might be useful in some cases, for example, if the missing data is in fact marked with the value 0 in your species distribution files due to some technical reasons.|
+| z 									| 0.25    | This value is used to calculate the extinction risks of species as their distribution sizes are decreasing. z is the exponent of the species-area curve (S = cAz ), which has been widely used in ecological studies. |
+| resample species						| 0	 	  | This option allows you to, for example, test analyses using only a subset of species. The program selects a random set of species from your species list file and uses them to run the analysis.|
+| post-processing list file         	| - 	  | Indicates the list file of automatically executed post-processing analyses to be performed after landscape ranking. |
+| memory save mode 						| 0	 	  | Here you can choose to use Zonation in a memory save mode.|
+| use groups 							| 0	 	  | Determines whether a groups file is used (value = 1) or not (value = 0).|
+| groups file 							| - 	  | Indicates the groups file to be used in the analysis. |
+| use condition layer 					| 0	 	  |  Determines whether feature-group specific landscape condition is used in the analysis (value = 1) or not (value = 0).|
+| condition file 						| - 	  |  Indicates the file describing linkage of features to landscape condition.|
+| use retention layer 					| 0	 	  |  Determines whether feature-group specific retention layers are used in the analysis (value = 1) or not (value = 0).|
+| retention file 						| - 	  |  Indicates the file describing linkage of features to landscape retention. |
+| retention layers relative weight 		| 1.0	  | Determines the relative weight of retention layers (as a group) compared to representation.|
+| mask missing areas 					| 0	 	  | Determines whether some areas of the landscape are masked out (filled with missing data) for all input grid layers (value = 1) or not (value = 0).|
+| area mask file 						| - 	  |  Indicates the raster file to be used for masking the areas with missing information. |
 
 ### Info-gap settings
 
