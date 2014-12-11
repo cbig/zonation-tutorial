@@ -1,0 +1,2 @@
+# LSM mask_file percent distance similarity
+LSM ../data/plu.tif 0 -1 0
