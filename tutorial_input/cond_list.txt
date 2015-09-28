@@ -1,2 +1,0 @@
-1 tutorial_input/condition1.tif
-2 tutorial_input/condition2.tif

@@ -1,1 +1,0 @@
-call zig3.exe -r tutorial_input/set_ADMU.dat tutorial_input/splist_ADMU.spp tutorial_output/output_ADMU 0.0 1 1.0 0

@@ -1,1 +1,0 @@
-call zig3.exe -ltutorial_output/output.rank.asc tutorial_input/set_cost.dat tutorial_input/splist.spp tutorial_output/output_loadcost.txt 0.0 0 1.0 0

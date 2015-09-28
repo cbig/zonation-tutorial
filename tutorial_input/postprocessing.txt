@@ -1,5 +1,0 @@
-LSI 30 10 50 0.4
-LSC 0.2 0.2 tutorial_output/output_abf.rank.tif tutoutppa/outppalsc.tif
-LSM tutorial_input/plu.tif 15 25 0 0.3
-LSB tutorial_input/plu.tif 25 20 50 0.4
-LSM tutorial_input/plu.tif 0 -1 0

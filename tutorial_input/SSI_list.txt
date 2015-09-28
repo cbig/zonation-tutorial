@@ -1,2 +1,0 @@
-1.0  1.0  1  1  1  tutorial_input/SSI_sp8.txt
-1.0  1.0  1  1  1  tutorial_input/SSI_sp9.txt
