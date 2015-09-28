@@ -1,0 +1,9 @@
+[Settings]
+removal rule = 1
+warp factor = 100
+edge removal = 1
+annotate name = 0
+
+[vmat]
+load vmat directly and risky=1
+load vmat = advanced_output/07_save_vmat/07_save_vmat.07_save_vmat.gz
