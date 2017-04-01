@@ -1,0 +1,2 @@
+#!/bin/bash
+zig4 -r 03_boundary_length_penalty/03_boundary_length_penalty.dat 03_boundary_length_penalty/03_boundary_length_penalty.spp basic_output/03_boundary_length_penalty/03_boundary_length_penalty.txt 0.0 0 1.0 0
